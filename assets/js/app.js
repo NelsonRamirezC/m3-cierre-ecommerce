@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
 
-
     function crearTarjetaProducto(producto){
         let templateColCard = `
             <div class="col">
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                                 <h5 class="card-title">${producto.nombre}</h5>
                                 <p class="card-text">Descripción...</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span class="h5 mb-0">$${producto.precio}</span>
+                                    <span class="h5 mb-0">${formatoMoneda(producto.precio)}</span>
                                     <div>
                                         <i class="bi bi-star-fill text-warning"></i>
                                         <i class="bi bi-star-fill text-warning"></i>
