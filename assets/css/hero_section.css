@@ -1,0 +1,38 @@
+.hero-section {
+    background: linear-gradient(
+            135deg,
+            rgba(255, 126, 95, 0.7),
+            rgba(255, 194, 121, 0.7)
+        ),
+        url("https://via.placeholder.com/1920x1080") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+.hero-content {
+    max-width: 600px;
+}
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+}
+.btn-primary:hover {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}

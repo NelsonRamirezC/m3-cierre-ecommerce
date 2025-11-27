@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="./assets/css/hero_section.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script defer src="./assets/js/productos.js"></script>
+
+    <script defer src="./assets/js/app.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ecommerce Sustantiva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#productos">Productos</a>
+                    <a class="nav-link" href="#">Mi carrito</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Our Website</h1>
+                <p class="hero-subtitle">We offer the best solutions for your business needs. Explore our services and
+                    get in touch with us today.</p>
+                <a href="#productos" class="btn btn-primary">Conoce nuestros productos</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="productos" class="py-5 container">
+            <h2 class="text-center">Nuestros productos.</h2>
+
+            <section id="lista-productos">
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="contenedor-productos">
+
+                    <!-- AQUÍ SE AGREGAN LAS COL CON LAS TARJETAS -->
+
+                </div>
+
+            </section>
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
